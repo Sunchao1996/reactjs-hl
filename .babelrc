@@ -1,0 +1,9 @@
+{
+  "presets": [ "es2015", "stage-3", "react"],
+  "plugins": [["import", { "libraryName": "antd", "style": true }]],
+  "env": {
+    "build": {
+      "optional": ["optimisation", "minification"]
+    }
+  }
+}
